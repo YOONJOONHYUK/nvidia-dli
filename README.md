@@ -11,4 +11,5 @@
 
 
    젯슨나노 세팅
-![Uploading JetsonNano-DevKit_Front-Top_Right_trimmed.jpg…]()
+![JetsonNano-DevKit_Front-Top_Right_trimmed](https://user-images.githubusercontent.com/102521625/202900456-005377c2-0674-40cf-9021-8afcf58be629.jpg)
+
