@@ -49,6 +49,17 @@
   
 ![3](https://user-images.githubusercontent.com/102521625/202901460-4673a559-c05d-4d8d-bf11-5e20e31bd9e6.jpg)
 - 위에 있는 명령어를 치고나면  
+(명령어 : # Disable ZRAM:
+sudo systemctl disable nvzramconfig
+
+# Create 4GB swap file
+sudo fallocate -l 4G /mnt/4GB.swap
+sudo chmod 600 /mnt/4GB.swap
+sudo mkswap /mnt/4GB.swap
+
+# Append the following line to /etc/fstab
+sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab)
+
 
 ![4](https://user-images.githubusercontent.com/102521625/202901583-06260127-467e-4a9b-a759-f88843453c87.jpg)
 - 위에와 같은 화면이 나오는데 여기서 사진에 있는 마지막 한줄을 쳐주게되면 스왑이 된 것이다.  
