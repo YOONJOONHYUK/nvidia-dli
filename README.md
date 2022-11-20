@@ -58,7 +58,7 @@ sudo chmod 600 /mnt/4GB.swap
 sudo mkswap /mnt/4GB.swap
 
 # Append the following line to /etc/fstab
-sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab)
+sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
 
 
 ![4](https://user-images.githubusercontent.com/102521625/202901583-06260127-467e-4a9b-a759-f88843453c87.jpg)
@@ -66,5 +66,21 @@ sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab)
 - 여기서 창을 닫기 위해서 ':wq'라는 명령어를 쳐서 닫고 다시 'free -m'을 쳐서 확인한다.  
 - 하지만 여기서 아직도 용량이 변하지 않았다면 재부팅을 다시하고나서 한다면 바뀌어져있을 것이다.
 
+---------------------------------------------------------------------------------  
+### 
+
+- 젯슨나노에 usb카메라를 설치하고 데이터 케이블로 노트북과 젯슨나노를 연결해준다.  
+- 그다음에 노트북에서 windows powershell을 열여준다.  
+- 'ssh <username>@192.168.55.1'입력, 요청 시 설정한 암호를 입력합니다.  (여기서 <username>은 자신이 우분투를 설치할 때 썼던 이름을 입력)  
+- 로그인한 젯슨 나노 터미널에서 'mkdir -p ~/nvdli-data'를 사용하여 활용될 데이터 디렉토리를 추가한다.  
   
+- ls명령어는 디렉토리내 어떤 파일들이 있는지 보여줌
+  
+- 다음 명령어를 통해 도커 컨테이너를 실행합니다. 여기서<tag>는 교육 과정 버전과 Jetson Nano JetPack L4T 운영 체제 버전의 조합입니다. (양식은 <tag> = <course_version>-<L4T_version>). 태그 목록은 NVIDIA NGC cloud page에서 확인하실 수 있습니다.  
+     
+
+- sudo docker run --runtime nvidia -it --rm --network host \    (docker는 컨테이너 이미지들이 저장되어 있는 docker저장소를 구축, 실행, 푸시를 하기위한 명령어)
+- --volume ~/nvdli-data:/nvdli-nano/data \    (nvdli-data 디렉토리를 만들었던 것이 /nvdli-nano/data 디렉토리 안에 있고 volume이 하는 것은 이 두가지 디렉토리를 묶어 저장 공간을 공유하는 것이다. -> 그래서 /nvdli-nano/data 디렉토리에서 작업을 하다가 나가도 /nvdli-nano/data 디렉토리에 저장되어 있는 것이 nvdli-data 디렉토리 안에 유지되는 것이다.)
+- --device /dev/video0 \     (디바이스 옵션은 usb를 통해 셋업을 할 것이기 때문에 video0)
+-  nvcr.io/nvidia/dli/dli-nano-ai:<tag>
 
