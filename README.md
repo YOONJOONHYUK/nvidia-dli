@@ -13,4 +13,10 @@
 
 ### 젯슨나노 세팅
 ![JetsonNano-DevKit_Front-Top_Right_trimmed](https://user-images.githubusercontent.com/102521625/202900456-005377c2-0674-40cf-9021-8afcf58be629.jpg)
+   - sd카드를 젯슨나노에 넣는다.
+   - 와이파이 동글을 꽂는다.
+   - 마우스와 키보드를 연결한다.
+   - HDMI선으로 모니터와 젯슨나노를 연결한 뒤, 화면을 HDMI로 바꾸어준다.  
+
+##### 우분투 설치
 
