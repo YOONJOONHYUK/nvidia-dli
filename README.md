@@ -88,6 +88,20 @@ sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
  - echo "sudo docker run --runtime nvidia -it --rm --network host \
     --volume ~/nvdli-data:/nvdli-nano/data \
     --device /dev/video0 \
-    nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr" > docker_dli_run.sh   (재사용 가능한 스크립트를 만드는 것)  
+    nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr" > docker_dli_run.sh    (재사용 가능한 스크립트를 만드는 것)
+    chmod +x docker_dli_run.sh   (스크립트를 실행가능하게 만듦)
+ -  ./docker_dli_run.sh   (스크립트를 실행,  앞으로는 이 명령문만 쓰면 들어갈 수 있음)  
+     
+ - 이후 웹브라우저에서 192.168.55.1:8888을 치게되면 주피터랩 서버가 열리게 되고 여기서'dlinano'라는 암호를 입력하면 로그인이 됨  
+   
+ --------------------------------------------------------------------------------------------------  
+ ### 주피터 랩  
+   
+ - tip 
+   > launcher 페이지에서 터미널을 열 수 있다. 여기서 'free -m'을 통해 스왑을 확인할 수 있다.  
+   > 만약 launcher가 없어졌을 경우, 사진에서처럼 +를 눌러서 launcher를 새로 열 수 있다.  
+   > ![5](https://user-images.githubusercontent.com/102521625/202903598-8af0564e-4318-4e3f-8aba-46fb856fe60f.jpg)  
+   > data 디렉토리에 저장된 것은 종료후에도 계속 유지되기 때문에 작업을 마친 데이터를 다시 수집할 필요없다.
+
    
 
