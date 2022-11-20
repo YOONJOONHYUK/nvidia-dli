@@ -49,7 +49,7 @@
   
 ![3](https://user-images.githubusercontent.com/102521625/202901460-4673a559-c05d-4d8d-bf11-5e20e31bd9e6.jpg)
 - 위에 있는 명령어를 치고나면  
-(명령어 : # Disable ZRAM:
+# Disable ZRAM:
 sudo systemctl disable nvzramconfig
 
 # Create 4GB swap file
