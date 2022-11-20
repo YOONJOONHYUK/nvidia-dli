@@ -20,11 +20,12 @@
 
 ### 우분투 설치
   
-  -밑에 있는 사진을 보고 따라한다.
+  - 밑에 있는 사진을 보고 따라한다.
 ![1](https://user-images.githubusercontent.com/102521625/202900860-abde7082-e4ee-447f-8951-42ccd806a3a7.jpg)
   
-  ![2](https://user-images.githubusercontent.com/102521625/202900889-0b449bd3-ca49-436f-9869-73f519c015bd.jpg)
-  ![3](https://user-images.githubusercontent.com/102521625/202900903-07e9b0f2-b8cf-4295-8552-04b5f1b9ad72.jpg)
+![2](https://user-images.githubusercontent.com/102521625/202900889-0b449bd3-ca49-436f-9869-73f519c015bd.jpg)  
+
+![3](https://user-images.githubusercontent.com/102521625/202900903-07e9b0f2-b8cf-4295-8552-04b5f1b9ad72.jpg)
 
   
 
