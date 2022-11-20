@@ -42,5 +42,18 @@
 ![1](https://user-images.githubusercontent.com/102521625/202901130-1220753e-109a-4f1f-8412-8c4b4ee902fd.jpg)
   
 - 그렇게 하고나면 이렇게 녹색화면으로 바뀌게 된다.
+  
+  
+![2](https://user-images.githubusercontent.com/102521625/202901261-e404a9e2-54b1-4566-b455-5c5202bff301.jpg)  
+- 그다음에 terminal에 들어간 뒤, 'free -m'을 써서 용량을 확인해준다. 사진에서는 스왑용량이 1GB이지만 우리는 4GB가 필요
+  
+![3](https://user-images.githubusercontent.com/102521625/202901460-4673a559-c05d-4d8d-bf11-5e20e31bd9e6.jpg)
+- 위에 있는 명령어를 치고나면  
 
+![4](https://user-images.githubusercontent.com/102521625/202901583-06260127-467e-4a9b-a759-f88843453c87.jpg)
+- 위에와 같은 화면이 나오는데 여기서 사진에 있는 마지막 한줄을 쳐주게되면 스왑이 된 것이다.  
+- 여기서 창을 닫기 위해서 ':wq'라는 명령어를 쳐서 닫고 다시 'free -m'을 쳐서 확인한다.  
+- 하지만 여기서 아직도 용량이 변하지 않았다면 재부팅을 다시하고나서 한다면 바뀌어져있을 것이다.
+
+  
 
