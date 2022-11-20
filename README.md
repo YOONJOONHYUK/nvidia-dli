@@ -1,6 +1,6 @@
 # nvidia-dli
-===========
- ##이미지 굽기
+
+## 이미지 굽기
    - sd card formatter를 설치해서 sd카드 안에 있는 쓰레기 데이터를 비우고 이미지를 구울 사전준비를 한다.
    - Balena Etcher   :  Linux version Download를 다운로드해준다.
    - jetpack를 다운로드한다. (https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
@@ -10,6 +10,6 @@
 ![캡처](https://user-images.githubusercontent.com/102521625/200294742-1785544a-27cd-4e3c-9fef-e60e707603c7.PNG)  
 
 
-   젯슨나노 세팅
+## 젯슨나노 세팅
 ![JetsonNano-DevKit_Front-Top_Right_trimmed](https://user-images.githubusercontent.com/102521625/202900456-005377c2-0674-40cf-9021-8afcf58be629.jpg)
 
