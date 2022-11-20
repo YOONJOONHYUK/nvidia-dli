@@ -97,6 +97,9 @@ sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
  --------------------------------------------------------------------------------------------------  
  ### 주피터 랩  
    
+ ![7](https://user-images.githubusercontent.com/102521625/202904282-5d5a69d0-2455-4adc-b5ff-4d0793082f17.png)
+  
+   
  - tip 
    > - launcher 페이지에서 터미널을 열 수 있다. 여기서 'free -m'을 통해 스왑을 확인할 수 있다.  
    > - 만약 launcher가 없어졌을 경우, 사진에서처럼 +를 눌러서 launcher를 새로 열 수 있다.  
@@ -104,7 +107,7 @@ sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
    > - data 디렉토리에 저장된 것은 종료 후에도 계속 유지되기 때문에 작업을 마친 데이터를 다시 수집할 필요없다.  
      
  - 실행하고 싶은 셀을 클릭 후, 삼각형 아이콘을 클릭하면 실행된다.  
-   ![6](https://user-images.githubusercontent.com/102521625/202903954-6b61cf8a-430c-4c19-a171-f7c825c797a4.jpg)  
+   ![8](https://user-images.githubusercontent.com/102521625/202904311-b0e5c219-8ae1-4952-939c-8db7cdf631f9.png)
    그러면 셀의 옆에 숫자가 보이는데 그것은 실행되었다는 표시이다.  (tip : 빠르게 실행하고 싶다면 shift+enter를 누르면 조금 더 빨리 이동할 수 있다.)
 
    
