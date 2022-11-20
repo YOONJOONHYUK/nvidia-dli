@@ -76,11 +76,18 @@ sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
   
 - ls명령어는 디렉토리내 어떤 파일들이 있는지 보여줌
   
-- 다음 명령어를 통해 도커 컨테이너를 실행합니다. 여기서<tag>는 교육 과정 버전과 Jetson Nano JetPack L4T 운영 체제 버전의 조합입니다. (양식은 <tag> = <course_version>-<L4T_version>). 태그 목록은 NVIDIA NGC cloud page에서 확인하실 수 있습니다.  
+#### 다음 명령어를 통해 도커 컨테이너를 실행합니다. 여기서<tag>는 교육 과정 버전과 Jetson Nano JetPack L4T 운영 체제 버전의 조합입니다. (양식은 <tag> = <course_version>-<L4T_version>). 태그 목록은 NVIDIA NGC cloud page에서 확인하실 수 있습니다.  
      
 
 - sudo docker run --runtime nvidia -it --rm --network host \    (docker는 컨테이너 이미지들이 저장되어 있는 docker저장소를 구축, 실행, 푸시를 하기위한 명령어)
 - --volume ~/nvdli-data:/nvdli-nano/data \    (nvdli-data 디렉토리를 만들었던 것이 /nvdli-nano/data 디렉토리 안에 있고 volume이 하는 것은 이 두가지 디렉토리를 묶어 저장 공간을 공유하는 것이다. -> 그래서 /nvdli-nano/data 디렉토리에서 작업을 하다가 나가도 /nvdli-nano/data 디렉토리에 저장되어 있는 것이 nvdli-data 디렉토리 안에 유지되는 것이다.)
 - --device /dev/video0 \     (디바이스 옵션은 usb를 통해 셋업을 할 것이기 때문에 video0)
 -  nvcr.io/nvidia/dli/dli-nano-ai:<tag>
+  
+   
+ - echo "sudo docker run --runtime nvidia -it --rm --network host \
+    --volume ~/nvdli-data:/nvdli-nano/data \
+    --device /dev/video0 \
+    nvcr.io/nvidia/dli/dli-nano-ai:v2.0.2-r32.7.1kr" > docker_dli_run.sh   (재사용 가능한 스크립트를 만드는 것)  
+   
 
