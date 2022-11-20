@@ -26,6 +26,18 @@
 ![2](https://user-images.githubusercontent.com/102521625/202900889-0b449bd3-ca49-436f-9869-73f519c015bd.jpg)  
 
 ![3](https://user-images.githubusercontent.com/102521625/202900903-07e9b0f2-b8cf-4295-8552-04b5f1b9ad72.jpg)
-
   
+- 그다음으로 와이파이를 설정해주고 지도에서 서울을 선택하고 다음창으로 넘어간다. 
+- 그리고 다시 사진을 보고 따라하면.. 
+  
+![4](https://user-images.githubusercontent.com/102521625/202901012-bb1f3b66-37ef-4a2c-89e9-3c9c15f30eb4.jpg)
+  
+![5](https://user-images.githubusercontent.com/102521625/202901038-4b763891-a7ba-4066-9442-2e5f9a245373.jpg)
+  
+![6](https://user-images.githubusercontent.com/102521625/202901055-f861af5d-3f40-4ea7-ab65-acb557f2ccc7.jpg)
+  
+![7](https://user-images.githubusercontent.com/102521625/202901064-998fa51b-41af-4df2-acd1-e3fe7d4821e6.jpg)
+
+
+
 
