@@ -1,4 +1,5 @@
-# nvidia-dli
+# nvidia-dli  
+- 프로젝트 : https://courses.nvidia.com/courses/course-v1:DLI+S-RX-02+V2-KR/courseware/b2e02e999d9247eb8e33e893ca052206/9605d1c247064480820d5a6b52dcbfe5/?child=last
 
 ### 이미지 굽기
    - sd card formatter를 설치해서 sd카드 안에 있는 쓰레기 데이터를 비우고 이미지를 구울 사전준비를 한다.
@@ -110,5 +111,16 @@ sudo echo "/mnt/4GB.swap swap swap defaults 0 0" >> /etc/fstab
    ![8](https://user-images.githubusercontent.com/102521625/202904311-b0e5c219-8ae1-4952-939c-8db7cdf631f9.png)
    그러면 셀의 옆에 숫자가 보이는데 그것은 실행되었다는 표시이다.  (tip : 빠르게 실행하고 싶다면 shift+enter를 누르면 조금 더 빨리 이동할 수 있다.)
 
-   
+----------------------------------------------------------------------------------------------------------  
+ ### thumbs project  
+ 
+- 주피터랩 인터페이스의 classification 폴더로 이동한 다음 classification_interactive.ipynb를 누른다.  (카메라는 한번에 하나만 쓸 수 있으므로 나머지 프로젝트는 닫아준다)  
+- 그다음에 모든 셀을 실행시켜준다.  
+![9](https://user-images.githubusercontent.com/102521625/202906012-739d38b9-ed21-45d1-a70c-cb8dc4bcc3bb.png)  
+- 그러면 이런 부분이 나오게 되고 여기서 category에서 thumbs-up을 눌러 사진을 add해서 추가해주고 또 thumbs-down을 눌러 사진을 추가해준다.  
+- 에포크를 10정도로 한 뒤, 트레이닝을 시킨다.  (에포크는 우리가 수집한 데이터를 통해 전체 트레이닝을 하는 사이클)  
+- 트레이닝을 하면서 손실과 정확도를 파악할 수 있다.  
+- 트레이닝이 끝난 뒤, 오른쪽에 있는 부분을 통해서 지금 카메라에 보이고 있는 부분이 thumbs-up로 인식하는지 thumbs-down인식하는지를 확인할 수 있다.  
+- test를 했을 때, 인식을 잘 하지 못한다면 category에서 필요한 부분의 사진을 추가한 뒤, 에포크를 돌리고 다시 test한다. 
+
 
