@@ -37,7 +37,10 @@
 ![6](https://user-images.githubusercontent.com/102521625/202901055-f861af5d-3f40-4ea7-ab65-acb557f2ccc7.jpg)
   
 ![7](https://user-images.githubusercontent.com/102521625/202901064-998fa51b-41af-4df2-acd1-e3fe7d4821e6.jpg)
-
-
+  
+  
+![1](https://user-images.githubusercontent.com/102521625/202901130-1220753e-109a-4f1f-8412-8c4b4ee902fd.jpg)
+  
+- 그렇게 하고나면 이렇게 녹색화면으로 바뀌게 된다.
 
 
