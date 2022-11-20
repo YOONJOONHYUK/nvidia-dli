@@ -10,4 +10,5 @@
 ![캡처](https://user-images.githubusercontent.com/102521625/200294742-1785544a-27cd-4e3c-9fef-e60e707603c7.PNG)  
 
 
-이 과정이 뜬 뒤에
+   젯슨나노 세팅
+![Uploading JetsonNano-DevKit_Front-Top_Right_trimmed.jpg…]()
